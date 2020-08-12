@@ -1,0 +1,342 @@
+{
+  "@context": [
+    {
+      "sdo": "https://schema.org/",
+      "Dataset": "sdo:Dataset",
+      "title": {
+        "@id": "sdo:name",
+        "@type": "sdo:Text"
+      },
+      "description": {
+        "@id": "sdo:description",
+        "@type": "sdo:Text"
+      },
+      "distributions": {
+        "@id": "sdo:distribution",
+        "@type": "sdo:DataDownload"
+      },
+      "formats": "sdo:fileFormat",
+      "unit": "sdo:unitCode",
+      "access": {
+        "@id": "sdo:accessMode",
+        "@type": "sdo:EntryPoint"
+      },
+      "landingPage": {
+        "@id": "sdo:url",
+        "@type": "sdo:URL"
+      },
+      "size": {
+        "@id": "sdo:contentSize",
+        "@type": "sdo:Text"
+      },
+      "primaryPublications": "sdo:citation",
+      "citations": "sdo:citation",
+      "producedBy": "sdo:producer",
+      "creators": {
+        "@id": "sdo:creator",
+        "@type": "sdo:Thing"
+      },
+      "licenses": "sdo:license",
+      "isAbout": "sdo:about",
+      "hasPart": {
+        "@id": "sdo:hasPart",
+        "@type": "sdo:Dataset"
+      },
+      "acknowledges": "sdo:funder",
+      "keywords": "sdo:keywords",
+      "dates": "sdo:temporalCoverage",
+      "storedIn": {
+        "@id": "sdo:includedInDataCatalog",
+        "@type": "sdo:DataCatalog"
+      },
+      "version": "sdo:version",
+      "identifier": {
+        "@id": "sdo:identifier",
+        "@type": "sdo:Text"
+      },
+      "DataType": "sdo:Thing",
+      "information": {
+        "@id": "sdo:Property"
+      },
+      "Annotation": "sdo:Thing",
+      "TaxonomicInformation": "sdo:Thing",
+      "Identifier": "sdo:Thing",
+      "identifierSource": {
+        "@id": "sdo:Property",
+        "@type": "sdo:Text"
+      },
+      "CategoryValuesPair": "sdo:PropertyValue",
+      "category": {
+        "@id": "sdo:value",
+        "@type": "sdo:Text"
+      },
+      "categoryIRI": {
+        "@id": "sdo:url",
+        "@type": "sdo:URL"
+      },
+      "Organization": "sdo:Organization",
+      "value": {
+        "@id": "sdo:value",
+        "@type": "sdo:DataType"
+      },
+      "valueIRI": {
+        "@id": "sdo:url",
+        "@type": "sdo:URL"
+      },
+      "name": {
+        "@id": "sdo:name",
+        "@type": "sdo:Text"
+      },
+      "Date": "sdo:DateTime",
+      "date": {
+        "@id": "sdo:Property"
+      },
+      "type": {
+        "@id": "sdo:Property"
+      },
+      "Disease": "sdo:MedicalCondition",
+      "MolecularEntity": "sdo:Thing",
+      "characteristics": {
+        "@id": "sdo:additionalProperty",
+        "@type": "sdo:Thing"
+      },
+      "diseaseStatus": "sdo:status",
+      "Material": "sdo:Thing",
+      "derivesFrom": "sdo:relatedTo",
+      "License": "sdo:CreativeWork",
+      "DataRepository": "sdo:DataCatalog",
+      "DataAcquisition": "sdo:CreateAction",
+      "uses": "sdo:relatedTo",
+      "Software": "sdo:SoftwareApplication",
+      "values": "sdo:value",
+      "extraProperties": "sdo:additionalProperty"
+    }
+  ],
+  "@type": "Dataset",
+  "title": "Neurodevelopmental Disorders Priority Setting Partnership",
+  "description": "Surveys responses from individuals in the NDD community identifying treatments/interventions that should be prioritized for Neurodevelopmental Disorders",
+  "dates": [
+    {
+      "@type": "Date",
+      "date": "2016-02-01",
+      "type": {
+        "@type": "Annotation",
+        "value": "Start Date"
+      }
+    },
+    {
+      "@type": "Date",
+      "date": "2017-02-01",
+      "type": {
+        "@type": "Annotation",
+        "value": "End Date"
+      }
+    }
+  ],
+  "storedIn": {
+    "@type": "DataRepository",
+    "name": "Brain-CODE",
+    "description": "Informatics platform for neuroscience data managed by the Ontario Brain Institute",
+    "publishers": [
+      {
+        "@type": "Organization",
+        "name": "Ontario Brain Institute",
+        "abbreviation": "OBI"
+      }
+    ]
+  },
+  "spatialCoverage": [
+    {
+      "@type": "Place",
+      "name": "Canada"
+    }
+  ],
+  "types": [
+    {
+      "@type": "DataType",
+      "information": {
+        "@type": "Annotation",
+        "value": "Survey Responses"
+      }
+    },
+    {
+      "@type": "DataType",
+      "information": {
+        "@type": "Annotation",
+        "value": "Respondant Demographics"
+      }
+    }
+  ],
+  "availability": "available",
+  "refinement": "",
+  "aggregation": "instance of dataset",
+  "privacy": "Registered access",
+  "distributions": [
+    {
+      "@type": "DatasetDistribution",
+      "formats": [
+        "CSV"
+      ],
+      "size": 447,
+      "unit": {
+        "@type": "Annotation",
+        "value": "KB"
+      },
+      "access": {
+        "landingPage": "https://www.braincode.ca/",
+        "authorizations": [
+          {
+            "@type": "Annotation",
+            "value": "Public"
+          }
+        ]
+      }
+    }
+  ],
+  "creators": [
+    {
+      "@type": "Organization",
+      "name": "Ontario Brain Institute",
+      "abbreviation": "OBI",
+      "location": {
+        "@type": "Place",
+        "name": "Toronto",
+        "postalAddress": "1 Richmond Street West"
+      }
+    }
+  ],
+  "licenses": [
+    {
+      "name": "Refer to Brain-CODE Governance Policy"
+    }
+  ],
+  "acknowledges": [
+    {
+      "@type": "Grant",
+      "name": "",
+      "funders": [
+        {
+          "@type": "Organization",
+          "name": "Ontario Brain Institute",
+          "abbreviation": "OBI",
+          "location": {
+            "@type": "Place",
+            "name": "Toronto",
+            "postalAddress": "1 Richmond Street West"
+          }
+        },
+        {
+          "@type": "Organization",
+          "name": "Province of Ontario Neurodevelopmental Disorders",
+          "abbreviation": "POND"
+        },
+        {
+          "@type": "Organization",
+          "name": "Government of Ontario"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "@type": "Annotation",
+      "value": "James Lind Alliance"
+    },
+    {
+      "@type": "Annotation",
+      "value": "Survey"
+    },
+    {
+      "@type": "Annotation",
+      "value": "Neurodevelopmental Disorder"
+    }
+  ],
+  "extraProperties": [
+    {
+      "@type": "CategoryValuesPair",
+      "category": "subjects",
+      "values": [
+        {
+          "value": 1264
+        }
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "category": "files",
+      "values": [
+        {
+          "value": 1
+        }
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "category": "CONP_status",
+      "values": [
+        {
+          "value": "CONP"
+        }
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "category": "contact",
+      "values": [
+        {
+          "value": "Brain-CODE, prioritysetting@braininstitute.ca"
+        }
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "category": "logo",
+      "values": [
+        {
+          "value": "logo.png"
+        }
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "category": "origin_institution",
+      "values": [
+        {
+          "@type": "Annotation",
+          "value": "Ontario Brain Institute"
+        }
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "category": "origin_city",
+      "values": [
+        {
+          "@type": "Annotation",
+          "value": "Toronto"
+        }
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "category": "origin_province",
+      "values": [
+        {
+          "@type": "Annotation",
+          "value": "Ontario"
+        }
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "category": "origin_country",
+      "values": [
+        {
+          "@type": "Annotation",
+          "value": "Canada"
+        }
+      ]
+    }
+  ],
+  "version": "1.0"
+}
