@@ -1,0 +1,191 @@
+{
+  "title": "Neurodevelopmental Disorders Priority Setting Partnership",
+  "description": "Surveys responses from individuals in the NDD community identifying treatments/interventions that should be prioritized for Neurodevelopmental Disorders",
+  "dates": [
+    {
+      "date": "2016-02-01",
+      "type": {
+        "value": "Start Date"
+      }
+    },
+    {
+      "date": "2017-02-01",
+      "type": {
+        "value": "End Date"
+      }
+    }
+  ],
+  "storedIn": {
+    "name": "Brain-CODE",
+    "description": "Informatics platform for neuroscience data managed by the Ontario Brain Institute",
+    "publishers": [
+      {
+        "name": "Ontario Brain Institute",
+        "abbreviation": "OBI"
+      }
+    ]
+  },
+  "spatialCoverage": [
+    {
+      "name": "Canada"
+    }
+  ],
+  "types": [
+    {
+      "information": {
+        "value": "Survey Responses"
+      }
+    },
+    {
+      "information": {
+        "value": "Respondant Demographics"
+      }
+    }
+  ],
+  "availability": "available",
+  "refinement": "",
+  "aggregation": "instance of dataset",
+  "privacy": "Registered access",
+  "distributions": [
+    {
+      "formats": [
+        "CSV"
+      ],
+      "size": 447,
+      "unit": {
+        "value": "KB"
+      },
+      "access": {
+        "landingPage": "https://www.braincode.ca/",
+        "authorizations": [
+          {
+            "value": "Public"
+          }
+        ]
+      }
+    }
+  ],
+  "creators": [
+    {
+      "name": "Ontario Brain Institute",
+      "abbreviation": "OBI",
+      "location": {
+        "name": "Toronto",
+        "postalAddress": "1 Richmond Street West"
+      }
+    }
+  ],
+  "licenses": [
+    {
+      "name": "Refer to Brain-CODE Governance Policy"
+    }
+  ],
+  "acknowledges": [
+    {
+      "name": "",
+      "funders": [
+        {
+          "name": "Ontario Brain Institute",
+          "abbreviation": "OBI",
+          "location": {
+            "name": "Toronto",
+            "postalAddress": "1 Richmond Street West"
+          }
+        },
+        {
+          "name": "Province of Ontario Neurodevelopmental Disorders",
+          "abbreviation": "POND"
+        },
+        {
+          "name": "Government of Ontario"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "value": "James Lind Alliance"
+    },
+    {
+      "value": "Survey"
+    },
+    {
+      "value": "Neurodevelopmental Disorder"
+    }
+  ],
+  "extraProperties": [
+    {
+      "category": "subjects",
+      "values": [
+        {
+          "value": 1264
+        }
+      ]
+    },
+    {
+      "category": "files",
+      "values": [
+        {
+          "value": 1
+        }
+      ]
+    },
+    {
+      "category": "CONP_status",
+      "values": [
+        {
+          "value": "CONP"
+        }
+      ]
+    },
+    {
+      "category": "contact",
+      "values": [
+        {
+          "value": "Brain-CODE, prioritysetting@braininstitute.ca"
+        }
+      ]
+    },
+    {
+      "category": "logo",
+      "values": [
+        {
+          "value": "logo.png"
+        }
+      ]
+    },
+    {
+      "category": "origin_institution",
+      "values": [
+        {
+          "value": "Ontario Brain Institute"
+        }
+      ]
+    },
+    {
+      "category": "origin_city",
+      "values": [
+        {
+          "value": "Toronto"
+        }
+      ]
+    },
+    {
+      "category": "origin_province",
+      "values": [
+        {
+          "value": "Ontario"
+        }
+      ]
+    },
+    {
+      "category": "origin_country",
+      "values": [
+        {
+          "value": "Canada"
+        }
+      ]
+    }
+  ],
+  "version": "1.0"
+}
