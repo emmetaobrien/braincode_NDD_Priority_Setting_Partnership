@@ -5,13 +5,13 @@
     {
       "date": "2016-02-01",
       "type": {
-        "value": "Start Date"
+        "value": "start date"
       }
     },
     {
       "date": "2017-02-01",
       "type": {
-        "value": "End Date"
+        "value": "end date"
       }
     }
   ],
