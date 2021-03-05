@@ -45,7 +45,7 @@
   "availability": "available",
   "refinement": "",
   "aggregation": "instance of dataset",
-  "privacy": "Registered access",
+  "privacy": "registered",
   "distributions": [
     {
       "formats": [
