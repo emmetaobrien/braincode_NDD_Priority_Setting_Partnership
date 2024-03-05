@@ -162,6 +162,14 @@
         }
       ]
     },
+	{
+      "category": "registrationPage",
+      "values": [
+        {
+          "value": "https://www.braincode.ca/user/register"
+        }
+      ]
+    },
     {
       "category": "origin_city",
       "values": [
